@@ -230,7 +230,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: -2.0422091e+31
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -258,7 +258,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1900982377}
+  m_Father: {fileID: 1453359628}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1236456848
@@ -301,8 +301,8 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera: {fileID: 647983500}
   m_TargetTexture: {fileID: 8400000, guid: 5c022195c475ab44f8c7c750ac521089, type: 2}
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_RenderMode: 2
+  m_TargetMaterialRenderer: {fileID: 1453359626}
+  m_RenderMode: 3
   m_AspectRatio: 0
   m_DataSource: 0
   m_PlaybackSpeed: 1
@@ -322,7 +322,16 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
---- !u!1001 &1783658804
+--- !u!23 &1453359626 stripped
+MeshRenderer:
+  m_PrefabParentObject: {fileID: 2300000, guid: 630684f91de33bf48b15ac775de243e2,
+    type: 3}
+  m_PrefabInternal: {fileID: 1718081474}
+--- !u!4 &1453359628 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 630684f91de33bf48b15ac775de243e2, type: 3}
+  m_PrefabInternal: {fileID: 1718081474}
+--- !u!1001 &1718081474
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -339,7 +348,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 630684f91de33bf48b15ac775de243e2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 630684f91de33bf48b15ac775de243e2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -361,15 +370,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 630684f91de33bf48b15ac775de243e2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cb906dd4968e52448b34c6e723aa6d21, type: 2}
+    - target: {fileID: 100000, guid: 630684f91de33bf48b15ac775de243e2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: 630684f91de33bf48b15ac775de243e2, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 630684f91de33bf48b15ac775de243e2, type: 3}
   m_IsPrefabParent: 0
---- !u!4 &1900982377 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400000, guid: 630684f91de33bf48b15ac775de243e2, type: 3}
-  m_PrefabInternal: {fileID: 1783658804}
