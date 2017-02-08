@@ -1,0 +1,49 @@
+fileFormatVersion: 2
+guid: b9a68db511da27e47b982effa2d1e224
+timeCreated: 1486559651
+licenseType: Free
+VideoClipImporter:
+  serializedVersion: 2
+  useLegacyImporter: 0
+  quality: 0.5
+  isColorLinear: 0
+  originalWidth: 1920
+  originalHeight: 960
+  frameRange: 0
+  startFrame: -1
+  endFrame: -1
+  frameCount: 1290
+  frameRate: 14.984999656677246
+  colorSpace: 0
+  deinterlace: 0
+  sourceFileSize: 90800146
+  encodeAlpha: 0
+  sourceHasAlpha: 0
+  flipVertical: 0
+  flipHorizontal: 0
+  importAudio: 1
+  sourceAudioChannelCount: 0100
+  sourceAudioSampleRate: 44ac0000
+  targetSettings: {}
+  output:
+    format: 1
+    settings:
+      enableTranscoding: 0
+      codec: 0
+      resizeFormat: 0
+      aspectRatio: 0
+      customWidth: 1920
+      customHeight: 960
+      bitrateMode: 2
+      spatialQuality: 2
+    encodedWidth: 1920
+    encodedHeight: 960
+    encodedStartFrame: 0
+    encodedEndFrame: 1290
+    streamedResource:
+      source: Assets/R0010308_er.MP4
+      offset: 0
+      size: 90800146
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
